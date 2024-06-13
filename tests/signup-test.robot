@@ -33,4 +33,77 @@ Deve iniciar o cadastro do cliente
     ...     text=Falta pouco para fazer parte da família Smartbit!
     ...     visible    5
 
+
+Campo nome deve ser obrigatório
+     [Tags]    required
+    # Preparação
+    New Browser    browser=chromium    headless=False
+    New Page        ${BASE_URL}
+
+    Get Text
+    ...     css=#signup h2
+    ...     equal
+    ...     Faça seu cadastro e venha para a Smartbit!
+
+
+    Fill Text    id=email            fran@email.com
+    Fill Text    id=document         53986172149
+
+    Click        css=button >> text=Cadastrar
+
+
+    wait For Elements State
+    ...     css=form .notice
+    ...     visible    5
+     
+    Get Text    css=form .notice    equal    Por favor informe o seu nome completo
+
+
+Campo email deve ser obrigatório
+    [Tags]    required
+    # Preparação
+    New Browser    browser=chromium    headless=False
+    New Page        ${BASE_URL}
+
+    Get Text
+    ...     css=#signup h2
+    ...     equal
+    ...     Faça seu cadastro e venha para a Smartbit!
+
+
+    Fill Text    id=name            Francilene Silva
+    Fill Text    id=document         53986172149
+
+    Click        css=button >> text=Cadastrar
+
+
+    wait For Elements State
+    ...     css=form .notice
+    ...     visible    5
+
+    Get Text    css=form .notice    equal    Por favor, informe o seu melhor e-mail
+
+Campo cpf deve ser obrigatório
+    [Tags]    required
+    # Preparação
+    New Browser    browser=chromium    headless=False
+    New Page        ${BASE_URL}
+
+    Get Text
+    ...     css=#signup h2
+    ...     equal
+    ...     Faça seu cadastro e venha para a Smartbit!
+
+
+    Fill Text    id=name            Francilene Silva
+    Fill Text    id=email            fran@email.com
     
+
+    Click        css=button >> text=Cadastrar
+
+
+    wait For Elements State
+    ...     css=form .notice
+    ...     visible    5
+
+    Get Text    css=form .notice    equal    Por favor, informe o seu CPF
