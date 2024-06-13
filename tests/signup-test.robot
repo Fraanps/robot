@@ -15,7 +15,10 @@ Deve iniciar o cadastro do cliente
     New Browser    browser=chromium    headless=False 
     New Page        ${BASE_URL}
 
-    Get Text    css=#signup h2    equal    Faça seu cadastro e venha para a Smartbit!
+    Get Text
+    ...     css=#signup h2
+    ...     equal
+    ...     Faça seu cadastro e venha para a Smartbit!
 
     # ato
     Fill Text    id=name             ${account}[name]
@@ -26,6 +29,8 @@ Deve iniciar o cadastro do cliente
     Click        css=button >> text=Cadastrar
 
     # verificação
-    wait For Elements State    text=Falta pouco para fazer parte da família Smartbit!    visible    5
+    wait For Elements State
+    ...     text=Falta pouco para fazer parte da família Smartbit!
+    ...     visible    5
 
     
