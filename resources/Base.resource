@@ -5,6 +5,8 @@ Library        Browser
 Library        libs/Account.py
 Resource       pages/LandingPage.resource
 Resource       pages/WelcomePage.resource
+Resource       pages/Login.resource
+Resource        pages/Accounts.resource
 
 *** Variables ***
 ${BASE_URL}       http://localhost:3000/
