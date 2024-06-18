@@ -25,6 +25,7 @@ Notice should be
     [Arguments]    ${target}
 
     ${element}    Set Variable    css=form .notice
+    #Set Browser Timeout    10000ms
 
     wait For Elements State
     ...      ${element}
