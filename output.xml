@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2024-06-18T16:06:40.175331" rpa="false" schemaversion="5">
+<suite id="s1" name="Smartbit-Robot" source="/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot">
+<suite id="s1-s1" name="Tests" source="/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/tests">
+<suite id="s1-s1-s1" name="Signup-Test" source="/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/tests/signup-test.robot">
+<test id="s1-s1-s1-t1" name="CPF no formato inválido" line="91">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-06-18T16:06:40.351797" level="INFO">${account} = {'name': 'Francilene Silva', 'email': 'fran@teste.com', 'cpf': '5398617214aa'}</msg>
+<var>${account}</var>
+<arg>name=Francilene Silva</arg>
+<arg>email=fran@teste.com</arg>
+<arg>cpf=5398617214aa</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-06-18T16:06:40.351591" elapsed="0.000228"/>
+</kw>
+<kw name="Start session" owner="base">
+<kw name="New Browser">
+<msg time="2024-06-18T16:06:40.352407" level="FAIL">No keyword with name 'New Browser' found.</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<status status="FAIL" start="2024-06-18T16:06:40.352396" elapsed="0.000038">No keyword with name 'New Browser' found.</status>
+</kw>
+<kw name="New Page">
+<arg>${BASE_URL}</arg>
+<status status="NOT RUN" start="2024-06-18T16:06:40.352486" elapsed="0.000006"/>
+</kw>
+<status status="FAIL" start="2024-06-18T16:06:40.351975" elapsed="0.000561">No keyword with name 'New Browser' found.</status>
+</kw>
+<kw name="Submit signup form" owner="LandingPage">
+<arg>${account}</arg>
+<status status="NOT RUN" start="2024-06-18T16:06:40.352617" elapsed="0.000008"/>
+</kw>
+<kw name="Notice should be" owner="LandingPage">
+<arg>Oops! O CPF informado é inválido</arg>
+<status status="NOT RUN" start="2024-06-18T16:06:40.352675" elapsed="0.000007"/>
+</kw>
+<kw name="Take Screenshot">
+<status status="NOT RUN" start="2024-06-18T16:06:40.352725" elapsed="0.000005"/>
+</kw>
+<tag>invalid</tag>
+<status status="FAIL" start="2024-06-18T16:06:40.351106" elapsed="0.001682">No keyword with name 'New Browser' found.</status>
+</test>
+<doc>Cenários de testes de pré-cadastro de clientes</doc>
+<status status="FAIL" start="2024-06-18T16:06:40.190831" elapsed="0.162147"/>
+</suite>
+<status status="FAIL" start="2024-06-18T16:06:40.190427" elapsed="0.162761"/>
+</suite>
+<status status="FAIL" start="2024-06-18T16:06:40.176628" elapsed="0.176698"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">invalid</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Smartbit-Robot">Smartbit-Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Smartbit-Robot.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Signup-Test">Smartbit-Robot.Tests.Signup-Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-18T16:06:40.291372" level="ERROR">Error in file '/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/base.resource' on line 4: Initializing library 'Browser' with no arguments failed: Could not find node dependencies in installation directory `/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper.` Run `rfbrowser init` to install the dependencies.
+Traceback (most recent call last):
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/browser.py", line 873, in __init__
+    self.playwright = Playwright(
+                      ^^^^^^^^^^^
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/playwright.py", line 53, in __init__
+    self.ensure_node_dependencies()
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/playwright.py", line 85, in ensure_node_dependencies
+    raise RuntimeError(
+RuntimeError: Could not find node dependencies in installation directory `/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper.` Run `rfbrowser init` to install the dependencies.</msg>
+<msg time="2024-06-18T16:06:40.293024" level="ERROR">Error in file '/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/base.resource' on line 5: Importing library '/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/libs/Account.py' failed: ModuleNotFoundError: No module named 'faker'
+Traceback (most recent call last):
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/libs/Account.py", line 1, in &lt;module&gt;
+    from faker import Faker
+PYTHONPATH:
+  /Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/libs
+  /Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot
+  /Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot
+  /Users/francilenesilva/Library/Application Support/JetBrains/IntelliJIdea2024.1/plugins/python/helpers/pycharm_display
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12
+  /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload
+  /Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages
+  /Users/francilenesilva/Library/Application Support/JetBrains/IntelliJIdea2024.1/plugins/python/helpers/pycharm_matplotlib_backend</msg>
+<msg time="2024-06-18T16:06:40.321799" level="ERROR">Error in file '/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/pages/LandingPage.resource' on line 5: Initializing library 'Browser' with no arguments failed: Could not find node dependencies in installation directory `/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper.` Run `rfbrowser init` to install the dependencies.
+Traceback (most recent call last):
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/browser.py", line 873, in __init__
+    self.playwright = Playwright(
+                      ^^^^^^^^^^^
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/playwright.py", line 53, in __init__
+    self.ensure_node_dependencies()
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/playwright.py", line 85, in ensure_node_dependencies
+    raise RuntimeError(
+RuntimeError: Could not find node dependencies in installation directory `/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper.` Run `rfbrowser init` to install the dependencies.</msg>
+<msg time="2024-06-18T16:06:40.350237" level="ERROR">Error in file '/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/resources/pages/WelcomePage.resource' on line 4: Initializing library 'Browser' with no arguments failed: Could not find node dependencies in installation directory `/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper.` Run `rfbrowser init` to install the dependencies.
+Traceback (most recent call last):
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/browser.py", line 873, in __init__
+    self.playwright = Playwright(
+                      ^^^^^^^^^^^
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/playwright.py", line 53, in __init__
+    self.ensure_node_dependencies()
+  File "/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/playwright.py", line 85, in ensure_node_dependencies
+    raise RuntimeError(
+RuntimeError: Could not find node dependencies in installation directory `/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper.` Run `rfbrowser init` to install the dependencies.</msg>
+</errors>
+</robot>

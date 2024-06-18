@@ -3,16 +3,21 @@ Documentation        Cenários de testes de pré-cadastro de clientes
 
 Resource    ../resources/base.resource
 
+Test Setup    Start session
+Test Teardown    Take Screenshot
+
+
 
 *** Test Cases ***
 Deve iniciar o cadastro do cliente
 
     ${account}    Get Fake Account
-    Start session
-    Submit signup form    ${account}
 
+    Submit signup form    ${account}
     # verificação
     Verify welcome message
+    # criando evidência de teste com screenshot
+
 
 Campo nome deve ser obrigatório
     [Tags]    required
@@ -22,7 +27,7 @@ Campo nome deve ser obrigatório
     ...    email=papito@teste.com
     ...    cpf=53986172149
 
-    Start session
+
 
     Submit signup form    ${account}
 
@@ -33,6 +38,7 @@ Campo nome deve ser obrigatório
     Notice should be    Por favor informe o seu nome completo
 
 
+
 Campo email deve ser obrigatório
     [Tags]    required
 
@@ -41,15 +47,14 @@ Campo email deve ser obrigatório
     ...    email=${EMPTY}
     ...    cpf=53986172149
 
-    Start session
 
     Submit signup form    ${account}
-
     wait For Elements State
     ...     css=form .notice
     ...     visible    5
 
     Notice should be    Por favor, informe o seu melhor e-mail
+
 
 Campo cpf deve ser obrigatório
     [Tags]    required
@@ -59,15 +64,14 @@ Campo cpf deve ser obrigatório
     ...    email=fran@teste.com
     ...    cpf=${EMPTY}
 
-    Start session
 
     Submit signup form    ${account}
-
     wait For Elements State
     ...     css=form .notice
     ...     visible    5
 
     Notice should be    Por favor, informe o seu CPF
+
 
 Email no formato inválido
     [Tags]    invalid
@@ -77,11 +81,10 @@ Email no formato inválido
     ...    email=fran*teste.com
     ...    cpf=53986172149
 
-    Start session
 
     Submit signup form    ${account}
-
     Notice should be   Oops! O email informado é inválido
+
 
 CPF no formato inválido
     [Tags]    invalid
@@ -90,10 +93,9 @@ CPF no formato inválido
     ...    email=fran@teste.com
     ...    cpf=5398617214aa
 
-    Start session
 
     Submit signup form    ${account}
-    
     Notice should be    Oops! O CPF informado é inválido
+
 
 

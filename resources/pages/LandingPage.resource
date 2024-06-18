@@ -19,6 +19,7 @@ Submit signup form
     Fill Text    id=cpf        ${account}[cpf]
 
     Click        css=button >> text=Cadastrar
+    Take Screenshot
 
 Notice should be
     [Arguments]    ${target}
@@ -30,3 +31,4 @@ Notice should be
     ...     visible    5
 
      Get Text     ${element}    equal    ${target}
+     Take Screenshot
