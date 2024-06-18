@@ -1,0 +1,26 @@
+*** Settings ***
+Documentation    Ações e elementos do Componente Toast
+
+Library    Browser
+
+*** Keywords ***
+
+# testando um toast
+Toast should be
+
+    # pegando o html da página no momento em que o botão de login é clicado e salvando em uma variável
+        # para pegar o toast. Deve ser colocado no teste de login
+    #    Sleep    3
+    #    ${temp}    Get Page Source
+    #    Log    ${temp}
+
+    [Arguments]    ${expected_text}
+
+    Wait For Elements State    css=.Toastify__toast-body
+    ...    visible    5
+
+    Get Text    css=.Toastify__toast-body
+    ...    equal
+    ...    ${expected_text}
+
+
