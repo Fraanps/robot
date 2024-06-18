@@ -1,10 +1,10 @@
 *** Settings ***
-
 Documentation        Arquivo principal do projeto Robot
 
 Library        Browser
 Library        libs/Account.py
 Resource       pages/LandingPage.resource
+Resource       pages/WelcomePage.resource
 
 *** Variables ***
 ${BASE_URL}       http://localhost:3000/

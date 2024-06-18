@@ -3,21 +3,16 @@ Documentation        Cenários de testes de pré-cadastro de clientes
 
 Resource    ../resources/base.resource
 
+
 *** Test Cases ***
 Deve iniciar o cadastro do cliente
 
     ${account}    Get Fake Account
-
     Start session
-   
-
     Submit signup form    ${account}
 
     # verificação
-    wait For Elements State
-    ...     text=Falta pouco para fazer parte da família Smartbit!
-    ...     visible    5
-
+    Verify welcome message
 
 Campo nome deve ser obrigatório
     [Tags]    required
