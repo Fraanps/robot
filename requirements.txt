@@ -4,6 +4,7 @@ grpcio==1.63.0
 grpcio-tools==1.63.0
 overrides==7.7.0
 protobuf==5.26.1
+psycopg2-binary==2.9.9
 python-dateutil==2.9.0.post0
 robotframework==7.0.1
 robotframework-assertion-engine==3.0.3

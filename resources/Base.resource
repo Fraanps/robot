@@ -3,6 +3,7 @@ Documentation        Arquivo principal do projeto Robot
 
 Library        Browser
 Library        libs/Account.py
+Library        libs/Database.py
 Resource       pages/LandingPage.resource
 Resource       pages/WelcomePage.resource
 Resource       pages/Login.resource

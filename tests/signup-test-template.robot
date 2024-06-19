@@ -8,13 +8,19 @@ Test Teardown        Take Screenshot    # executa uma ou mais keyword depois de 
 
 *** Test Cases ***
 Deve iniciar o cadastro do cliente
+    [Tags]    smoke
 
-    ${account}    Get Fake Account
+    ${account}    Create Dictionary
+    ...    name=Renato Augusto
+    ...    email=renato@msn.com
+    ...    cpf=44461751066
+
+    # deletando o email caso ele exista
+    delete_account_by_email    ${account}[email]
 
     Submit signup form    ${account}
-    # verificação
     Verify welcome message
-    # criando evidência de teste com screenshot
+
 
 Tentativa de pre-cadastro
     [Template]    Attempt Signup    
