@@ -21,15 +21,4 @@ Submit signup form
     Click        css=button >> text=Cadastrar
     Take Screenshot
 
-Notice should be
-    [Arguments]    ${target}
 
-    ${element}    Set Variable    css=form .notice
-    #Set Browser Timeout    10000ms
-
-    wait For Elements State
-    ...      ${element}
-    ...     visible    5
-
-     Get Text     ${element}    equal    ${target}
-     Take Screenshot

@@ -8,6 +8,7 @@ Resource       pages/WelcomePage.resource
 Resource       pages/Login.resource
 Resource       pages/Accounts.resource
 Resource       pages/components/Toast.resource
+Resource       pages/components/BoxNotice.resource
 
 *** Variables ***
 ${BASE_URL}       http://localhost:3000/
