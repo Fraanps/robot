@@ -11,5 +11,7 @@ def get_fake_account():
     }
     return account
 
+# usar o faker para dados que não são chave, para não inflar o banco de dados
+
 
 
