@@ -9,23 +9,27 @@ Test Teardown    Take Screenshot
 *** Test Cases ***
 Deve poder realizar uma nova adesão
     
-    ${account}    Create Dictionary
-    ...    name=Stefania Moraes
-    ...    email=fanny@msn.com
-    ...    cpf=05099284043
-    
-    ${plan}    Set Variable    Plano Black
-    
-    ${credit_card}    Create Dictionary
-    ...     number=4242424242424242
-    ...     holder=Stefania Morais
-    ...     month=06
-    ...     year=2028
-    ...     cvv=231 
+#    ${account}    Create Dictionary
+#    ...    name=Stefania Moraes
+#    ...    email=fanny@msn.com
+#    ...    cpf=05099284043
+#
+#    ${plan}    Set Variable    Plano Black
+#
+#    ${credit_card}    Create Dictionary
+#    ...     number=4242424242424242
+#    ...     holder=Stefania Morais
+#    ...     month=06
+#    ...     year=2028
+#    ...     cvv=231
+
+# externalizar masssa de teste quando for mais de 3 itens
+
+    ${data}    Get Json fixture    memberships    create
 
     # deleta a conta caso existir e cria novamente
-    Delete Account By Email    ${account}[email]
-    Insert Account             ${account}
+    Delete Account By Email    ${data}[account][email]
+    Insert Account             ${data}[account]
 
     # tem que estar logado
     Go To Login Page
@@ -36,10 +40,10 @@ Deve poder realizar uma nova adesão
     Go to memberships form
 
     # preenchando o formulário de matricula - que é caixa de seleções
-    Select Account     ${account}[name]    ${account}[cpf]
-    Select plan        ${plan}
+    Select Account     ${data}[account][name]    ${data}[account][cpf]
+    Select plan        ${data}[plan]
     
-    Fill Payment       ${credit_card}
+    Fill Payment       ${data}[credit_card]
 
     Click        css=button[type=submit] >> text=Cadastrar
 
@@ -47,20 +51,7 @@ Deve poder realizar uma nova adesão
 
 
 Usuário já possui matrícula
-    ${account}    Create Dictionary
-    ...    name=Stefania Moraes
-    ...    email=fanny@msn.com
-    ...    cpf=05099284043
-
-    ${plan}    Set Variable    Plano Black
-    
-    ${credit_card}    Create Dictionary
-    ...     number=4242424242424242
-    ...     holder=Stefania Moraes
-    ...     month=06
-    ...     year=2028
-    ...     cvv=231
-
+    ${data}    Get Json fixture    memberships    create
 
     Go To Login Page
     Submit Login Form    sac@smartbit.com    pwd123
@@ -69,12 +60,13 @@ Usuário já possui matrícula
     Go to memberships page
     Go to memberships form
 
-        # preenchando o formulário de matricula - que é caixa de seleções
-    Select Account     ${account}[name]    ${account}[cpf]
-    Select plan        ${plan}
+    # Tornar esse teste independente, pois depende do teste acima para passar
+    
+    Select Account     ${data}[account][name]    ${data}[account][cpf]
+    Select plan        ${data}[plan]
 
-    Fill Payment    ${credit_card}
-      
+    Fill Payment    ${data}[credit_card]
+
     Click        css=button[type=submit] >> text=Cadastrar
 
     Toast should be    O usuário já possui matrícula.

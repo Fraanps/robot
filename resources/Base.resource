@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation        Arquivo principal do projeto Robot
 
+Library        JSONLibrary
 Library        Browser
 Library        libs/Account.py
 Library        libs/Database.py
@@ -18,3 +19,13 @@ ${BASE_URL}       http://localhost:3000/
 Start session
      New Browser    browser=chromium    headless=False
      New Page        ${BASE_URL}
+
+Get Json fixture
+    [Arguments]        ${file_name}    ${scenario}
+    
+    ${data}    Load Json From File    
+    ...    ${EXECDIR}/resources/fixtures/${file_name}.json
+    ...    encoding=utf-8
+    
+    [Return]    ${data}[${scenario}]
+   

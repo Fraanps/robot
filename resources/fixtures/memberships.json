@@ -1,0 +1,20 @@
+{
+  "create": {
+    "account":{
+      "name": "Stefania Moraes",
+      "email":"fanny@msn.com",
+      "cpf": "05099284043"
+    },
+
+    "plan": "Plano Black",
+
+    "credit_card": {
+      "number": "4242424242424242",
+      "holder": "Stefania Moraes",
+      "month": "06",
+      "year": "2028",
+      "cvv": "231"
+    }
+
+  }
+}
