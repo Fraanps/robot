@@ -36,5 +36,17 @@ Não deve realizar adesão duplicada
     Create New Membership    ${data}
     Toast should be    O usuário já possui matrícula.
 
+Deve buscar por nome
+    [Tags]    busc
+    
+    ${name}    Set Variable    Emily Stone
 
+    SignIn Admin
+    Go To Memberships Page
+
+    Search by name           ${name}
+    Should filter by name    ${name}
+
+   
+    
 
