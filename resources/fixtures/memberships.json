@@ -16,5 +16,23 @@
       "cvv": "231"
     }
 
+  },
+  "duplicate": {
+    "account":{
+      "name": "Ana Matos",
+      "email":"ana@msn.com",
+      "cpf": "22978502045"
+    },
+
+    "plan": "Plano Smart",
+
+    "credit_card": {
+      "number": "4242424242424242",
+      "holder": "Ana Matos",
+      "month": "06",
+      "year": "2028",
+      "cvv": "231"
+    }
+
   }
 }
