@@ -6,7 +6,11 @@
       "cpf": "05099284043"
     },
 
-    "plan": "Plano Black",
+    "plan": {
+      "name": "Plano Black",
+      "id": 2,
+      "price": 79.99
+    },
 
     "credit_card": {
       "number": "4242424242424242",
@@ -24,7 +28,11 @@
       "cpf": "22978502045"
     },
 
-    "plan": "Plano Smart",
+    "plan": {
+      "name": "Plano Smart",
+      "id": 1,
+      "price": 99.99
+    },
 
     "credit_card": {
       "number": "4242424242424242",

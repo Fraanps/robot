@@ -9,7 +9,7 @@ Create new membership
     Go to memberships form
     # preenchando o formulário de matricula - que é caixa de seleções
     Select Account     ${data}[account][name]    ${data}[account][cpf]
-    Select plan        ${data}[plan]
+    Select plan        ${data}[plan][name]
     Fill Payment       ${data}[credit_card]
 
      Click        css=button[type=submit] >> text=Cadastrar
