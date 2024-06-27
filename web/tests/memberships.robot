@@ -48,16 +48,21 @@ Deve buscar por nome
     Search by name           ${data}[account][name]
     Should filter by name    ${data}[account][name]
 
-#Não deve encontrar usuário por nome
-#    [Tags]    no_search
-#
-#    ${name}    Set Variable    Emily Stone
-#
-#    SignIn Admin
-#    Go To Memberships Page
-#
-#    Search by name           ${name}
-#    Should filter by name    ${name}
+Deve excluir uma matrícula
+    [Tags]    remove
+
+    ${data}    Get Json Fixture    memberships    remove
+    Insert Membership    ${data}
+
+    SignIn Admin
+    Go To Memberships Page
+
+    Requeste removal by name    ${data}[account][name]
+    Confirm removal
+    Membership should not be visible    ${data}[account][name]
+    Toast should be    Matrícula removida com sucesso.
+
+
 
     
 

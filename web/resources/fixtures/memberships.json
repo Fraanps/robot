@@ -64,5 +64,27 @@
       "cvv": "231"
     }
 
+  },
+  "remove": {
+    "account":{
+      "name": "Jean Paul",
+      "email":"paul@jean.com",
+      "cpf": "85494024008"
+    },
+
+    "plan": {
+      "name": "Plano Black",
+      "id": 2,
+      "price": 99.99
+    },
+
+    "credit_card": {
+      "number": "4242424242424242",
+      "holder": "Jean Paul",
+      "month": "06",
+      "year": "2028",
+      "cvv": "231"
+    }
+
   }
 }

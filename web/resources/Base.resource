@@ -13,6 +13,7 @@ Resource       pages/components/Toast.resource
 Resource       pages/components/BoxNotice.resource
 Resource       pages/components/navbar.resource
 Resource       pages/memberships.resource
+Resource       pages/components/modal.resource
    
 *** Variables ***
 ${BASE_URL}       http://localhost:3000/
