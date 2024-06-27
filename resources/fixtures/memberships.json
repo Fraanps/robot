@@ -42,5 +42,27 @@
       "cvv": "231"
     }
 
+  },
+  "search": {
+    "account":{
+      "name": "Louise Cobalsk",
+      "email":"louise@msn.com",
+      "cpf": "85494024008"
+    },
+
+    "plan": {
+      "name": "Plano Smart",
+      "id": 1,
+      "price": 99.99
+    },
+
+    "credit_card": {
+      "number": "4242424242424242",
+      "holder": "Louise Cobalsk",
+      "month": "06",
+      "year": "2028",
+      "cvv": "231"
+    }
+
   }
 }

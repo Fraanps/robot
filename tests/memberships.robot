@@ -38,15 +38,26 @@ Não deve realizar adesão duplicada
 
 Deve buscar por nome
     [Tags]    busc
-    
-    ${name}    Set Variable    Emily Stone
+
+    ${data}    Get Json Fixture    memberships    search
+    Insert Membership    ${data}
 
     SignIn Admin
     Go To Memberships Page
 
-    Search by name           ${name}
-    Should filter by name    ${name}
+    Search by name           ${data}[account][name]
+    Should filter by name    ${data}[account][name]
 
-   
+#Não deve encontrar usuário por nome
+#    [Tags]    no_search
+#
+#    ${name}    Set Variable    Emily Stone
+#
+#    SignIn Admin
+#    Go To Memberships Page
+#
+#    Search by name           ${name}
+#    Should filter by name    ${name}
+
     
 
