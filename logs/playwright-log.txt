@@ -1,0 +1,1041 @@
+{"level":30,"time":"2024-12-19T22:31:00.086Z","pid":30704,"hostname":"Mac.lan","msg":"Listening on 58972"}
+(node:30704) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-12-19T22:31:01.200Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:01.201Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:01.204Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:01.204Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:01.209Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-12-19T22:31:05.382Z","pid":30704,"hostname":"Mac.lan","msg":"Adding browser to stack: chromium, version: 125.0.6422.26"}
+{"level":30,"time":"2024-12-19T22:31:05.383Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-12-19T22:31:05.383Z","pid":30704,"hostname":"Mac.lan","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-12-19T22:31:05.389Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:05.389Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:05.397Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:06.351Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:06.351Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:06.783Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:06.786Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:06.817Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:06.819Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:06.819Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:06.837Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:06.839Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:06.839Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:06.844Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:06.846Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:06.846Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:07.099Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:07.102Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:07.102Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2024-12-19T22:31:12.103Z","pid":30704,"hostname":"Mac.lan","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('.logged-user') to be visible[22m
+
+    at waitForElementState (/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:9191:19)
+    at async PlaywrightServer.waitForElementsState (/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:10691:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-12-19T22:31:12.105Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:12.106Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:12.172Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:12.179Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:12.179Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:12.252Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:12.255Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.256Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.257Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.257Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.258Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:12.258Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=93e09ef5-6260-4571-991e-931215608e00"}
+{"level":30,"time":"2024-12-19T22:31:12.258Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:12.262Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.263Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.264Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:12.265Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:12.265Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:12.266Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:12.266Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=93e09ef5-6260-4571-991e-931215608e00"}
+{"level":30,"time":"2024-12-19T22:31:12.266Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:12.270Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.270Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.271Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:12.271Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=93e09ef5-6260-4571-991e-931215608e00"}
+{"level":30,"time":"2024-12-19T22:31:12.271Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:12.272Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:12.298Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=926036df-5cdd-4e29-a083-4a1a392b05c4 from context=0547a9a5-7f96-4000-be5e-19785894032c page stack"}
+{"level":30,"time":"2024-12-19T22:31:12.306Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:12.307Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.307Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:12.309Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:12.309Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:12.310Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:12.310Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:12.313Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:12.498Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:12.498Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:12.863Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:12.866Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:12.904Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:12.906Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:12.906Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:12.921Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:12.923Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:12.923Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:12.955Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:12.956Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:12.956Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:12.982Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:12.984Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:12.984Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
+{"level":30,"time":"2024-12-19T22:31:14.283Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:14.287Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:14.287Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
+{"level":30,"time":"2024-12-19T22:31:14.305Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=.Toastify__toast-body containing As credenciais de acesso fornecidas são inválidas. Tente novamente!"}
+{"level":30,"time":"2024-12-19T22:31:14.305Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:14.308Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:14.308Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:14.308Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with .Toastify__toast-body in page."}
+{"level":30,"time":"2024-12-19T22:31:14.308Z","pid":30704,"hostname":"Mac.lan","Using selecotr: ":".Toastify__toast-body"}
+{"level":30,"time":"2024-12-19T22:31:15.270Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:15.274Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:15.274Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:15.400Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:15.403Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.403Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.404Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.405Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.405Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:15.405Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=5f1f3bce-3745-4c80-8cd2-759b2a57094b"}
+{"level":30,"time":"2024-12-19T22:31:15.405Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:15.408Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.408Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.409Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:15.409Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:15.410Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:15.410Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:15.411Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=5f1f3bce-3745-4c80-8cd2-759b2a57094b"}
+{"level":30,"time":"2024-12-19T22:31:15.411Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:15.413Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.413Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.414Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:15.414Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=5f1f3bce-3745-4c80-8cd2-759b2a57094b"}
+{"level":30,"time":"2024-12-19T22:31:15.414Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:15.415Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:15.423Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=849bee68-f256-4be5-93eb-8861948a4fec from context=5b5e6498-9b6a-479a-b7bf-21c086ee85be page stack"}
+{"level":30,"time":"2024-12-19T22:31:15.430Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:15.432Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.432Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:15.433Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:15.433Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:15.434Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:15.434Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:15.446Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:15.632Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:15.632Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:16.035Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:16.040Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:16.085Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:16.088Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:16.088Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:16.103Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:16.105Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:16.105Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:16.137Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:16.138Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:16.138Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:16.166Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:16.168Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:16.168Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
+{"level":30,"time":"2024-12-19T22:31:17.463Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:17.467Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:17.467Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body in page."}
+{"level":30,"time":"2024-12-19T22:31:17.481Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=.Toastify__toast-body containing As credenciais de acesso fornecidas são inválidas. Tente novamente!"}
+{"level":30,"time":"2024-12-19T22:31:17.481Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:17.484Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:17.484Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:17.484Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with .Toastify__toast-body in page."}
+{"level":30,"time":"2024-12-19T22:31:17.484Z","pid":30704,"hostname":"Mac.lan","Using selecotr: ":".Toastify__toast-body"}
+{"level":30,"time":"2024-12-19T22:31:18.432Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:18.436Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:18.436Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:18.487Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:18.490Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.491Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.492Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.493Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.494Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:18.494Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=4e4526f3-2e63-49b0-b8e4-859af8612f2d"}
+{"level":30,"time":"2024-12-19T22:31:18.494Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:18.500Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.505Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.507Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:18.507Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:18.508Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:18.508Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:18.510Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=4e4526f3-2e63-49b0-b8e4-859af8612f2d"}
+{"level":30,"time":"2024-12-19T22:31:18.510Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:18.513Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.514Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.516Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:18.516Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=4e4526f3-2e63-49b0-b8e4-859af8612f2d"}
+{"level":30,"time":"2024-12-19T22:31:18.516Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:18.520Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:18.535Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=3cab4343-466a-497b-b0b2-b5aa4c8759fb from context=23f4c374-e182-457c-8cee-f16be66cff28 page stack"}
+{"level":30,"time":"2024-12-19T22:31:18.544Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:18.546Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.546Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:18.548Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:18.548Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:18.549Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:18.549Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:18.554Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:18.747Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:18.747Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:19.112Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:19.115Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:19.149Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:19.151Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:19.151Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:19.166Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:19.167Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:19.167Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:19.171Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:19.173Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:19.173Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:19.198Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:19.200Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:19.200Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:19.996Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:20.001Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:20.001Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:20.016Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Os campos email e senha são obrigatórios."}
+{"level":30,"time":"2024-12-19T22:31:20.016Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:20.018Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:20.018Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:20.066Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:20.068Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:20.093Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:20.095Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:20.095Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:20.104Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:20.105Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:20.105Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:20.109Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:20.110Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:20.110Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:20.149Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:20.151Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:20.151Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:20.946Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:20.950Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:20.951Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:20.964Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Os campos email e senha são obrigatórios."}
+{"level":30,"time":"2024-12-19T22:31:20.964Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:20.966Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:20.966Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-7.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:21.042Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:21.045Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:21.075Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:21.077Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:21.077Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:21.087Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:21.089Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:21.089Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:21.093Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:21.095Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:21.095Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:21.132Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:21.134Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:21.134Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:21.928Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:21.934Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:21.934Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:21.949Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Os campos email e senha são obrigatórios."}
+{"level":30,"time":"2024-12-19T22:31:21.950Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:21.952Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:21.953Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-8.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:22.004Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:22.007Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:22.033Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:22.035Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.035Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:22.043Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.045Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.045Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:22.048Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.049Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:22.050Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:22.082Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:22.084Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:22.084Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:22.876Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:22.881Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:22.881Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:22.896Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O email informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:22.896Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:22.899Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:22.899Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-9.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:22.956Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:22.958Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:22.983Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:22.985Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.985Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:22.994Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.996Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:22.996Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:22.999Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:23.001Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:23.001Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:23.030Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:23.032Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:23.032Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:23.820Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:23.824Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:23.824Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:23.840Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O email informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:23.840Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:23.843Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:23.843Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-10.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:23.907Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:23.910Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:23.939Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:23.941Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:23.941Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:23.950Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:23.951Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:23.951Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:23.955Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:23.957Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:23.957Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:23.981Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:23.983Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:23.983Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:24.776Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:24.780Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:24.780Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:24.790Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O email informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:24.790Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:24.793Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:24.793Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-11.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:24.856Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:24.859Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:24.887Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-19T22:31:24.889Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:24.889Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-19T22:31:24.899Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:24.901Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:24.901Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=input[type=password] in page."}
+{"level":30,"time":"2024-12-19T22:31:24.905Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:24.906Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:24.906Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button[type=submit] in page."}
+{"level":30,"time":"2024-12-19T22:31:24.931Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:24.933Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:24.933Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:25.729Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:25.735Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:25.735Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:25.751Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O email informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:25.752Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:25.754Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:25.754Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-12.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:25.820Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:25.822Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:25.823Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-13.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:25.869Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:25.871Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.872Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.873Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.873Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.874Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:25.874Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=2a925c00-c501-4df9-b996-51724052f349"}
+{"level":30,"time":"2024-12-19T22:31:25.874Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:25.879Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.882Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.883Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:25.884Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:25.885Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:25.885Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:25.886Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=2a925c00-c501-4df9-b996-51724052f349"}
+{"level":30,"time":"2024-12-19T22:31:25.886Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:25.890Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.891Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.892Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:25.892Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=2a925c00-c501-4df9-b996-51724052f349"}
+{"level":30,"time":"2024-12-19T22:31:25.892Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:25.893Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:25.900Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=b8942583-ab37-4e09-a0c8-2a7b2217f3bb from context=753affd0-373f-480f-bb1f-e411a3a76dce page stack"}
+{"level":30,"time":"2024-12-19T22:31:25.919Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:25.922Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.922Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.928Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.928Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.929Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.929Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:25.930Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:25.930Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:25.931Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:25.931Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:25.934Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:26.131Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:26.131Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:26.519Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:26.534Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:26.534Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-14.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:26.595Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:26.598Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.598Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.599Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.599Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.600Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:26.600Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=13d66180-0449-450a-8532-907bc338f468"}
+{"level":30,"time":"2024-12-19T22:31:26.600Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:26.601Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.602Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.603Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:26.603Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:26.604Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:26.604Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:26.604Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=13d66180-0449-450a-8532-907bc338f468"}
+{"level":30,"time":"2024-12-19T22:31:26.604Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:26.606Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.606Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.607Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:26.607Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=13d66180-0449-450a-8532-907bc338f468"}
+{"level":30,"time":"2024-12-19T22:31:26.607Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:26.608Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:26.614Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=7dce440d-b381-4799-931f-d43979a80380 from context=7d2e1253-82e4-4c6c-be1f-c8508f321191 page stack"}
+{"level":30,"time":"2024-12-19T22:31:26.619Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:26.620Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.620Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:26.621Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:26.621Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:26.623Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:26.623Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:26.626Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:26.813Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:26.813Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.186Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:27.194Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:27.194Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-15.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:27.268Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:27.270Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.271Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.272Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.272Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.273Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:27.273Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=d6cdcfb4-3634-406d-a91d-3289f27ecc9f"}
+{"level":30,"time":"2024-12-19T22:31:27.273Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.274Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.275Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.275Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.275Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.277Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.277Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.278Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=d6cdcfb4-3634-406d-a91d-3289f27ecc9f"}
+{"level":30,"time":"2024-12-19T22:31:27.278Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.279Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.280Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.280Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:27.280Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=d6cdcfb4-3634-406d-a91d-3289f27ecc9f"}
+{"level":30,"time":"2024-12-19T22:31:27.280Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.281Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:27.287Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=6cd45d3c-878c-40b7-bf45-d462af065cce from context=ba6d831a-28b6-42f1-9e7b-1acf876e87ed page stack"}
+{"level":30,"time":"2024-12-19T22:31:27.291Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:27.292Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.292Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.294Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.294Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.295Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:27.295Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:27.299Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:27.497Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:27.497Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.870Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:27.875Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:27.875Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-16.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:27.958Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:27.960Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.961Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.961Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.962Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.963Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:27.963Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=7b8994bc-4067-4e53-85da-849cbf7d5461"}
+{"level":30,"time":"2024-12-19T22:31:27.963Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.967Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.970Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.971Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.971Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.972Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.972Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.973Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=7b8994bc-4067-4e53-85da-849cbf7d5461"}
+{"level":30,"time":"2024-12-19T22:31:27.973Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.975Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.976Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.977Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:27.977Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=7b8994bc-4067-4e53-85da-849cbf7d5461"}
+{"level":30,"time":"2024-12-19T22:31:27.977Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:27.978Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:27.985Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=13ca9da5-1f92-406b-b5a7-d328866d1766 from context=edea54c2-54cc-4263-a2d3-6939c898ecea page stack"}
+{"level":30,"time":"2024-12-19T22:31:27.994Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:27.995Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.995Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:27.996Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.996Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:27.997Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:27.997Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:28.017Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:28.214Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:28.214Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:28.626Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:28.631Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:28.631Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-17.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:28.696Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:28.698Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.699Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.700Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.701Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.701Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:28.701Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=dd887d04-f610-4464-9749-4675739db2d7"}
+{"level":30,"time":"2024-12-19T22:31:28.701Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:28.703Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.704Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.704Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:28.704Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:28.705Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:28.705Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:28.706Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=dd887d04-f610-4464-9749-4675739db2d7"}
+{"level":30,"time":"2024-12-19T22:31:28.706Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:28.707Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.708Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.708Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:28.708Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=dd887d04-f610-4464-9749-4675739db2d7"}
+{"level":30,"time":"2024-12-19T22:31:28.708Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:28.710Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:28.715Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=53b26914-7500-4b1f-816f-f7602a7a3d6d from context=672d87bb-31c3-4998-8f4e-3d2c75bd813f page stack"}
+{"level":30,"time":"2024-12-19T22:31:28.720Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:28.722Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.722Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.728Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.728Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.728Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.728Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:28.729Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:28.730Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:28.730Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:28.730Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:28.734Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:28.933Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:28.933Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:29.382Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:29.386Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:29.386Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:29.409Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:29.409Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:29.411Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:29.411Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:29.416Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:29.418Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:29.418Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:29.464Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:29.465Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:29.465Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:29.470Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:29.473Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:29.473Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:29.665Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:29.667Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:29.667Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-18.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:29.815Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:29.817Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:29.817Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with text=Falta pouco para fazer parte da família Smartbit! in page."}
+{"level":30,"time":"2024-12-19T22:31:34.817Z","pid":30704,"hostname":"Mac.lan","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('text=Falta pouco para fazer parte da família Smartbit!') to be visible[22m
+
+    at waitForElementState (/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:9191:19)
+    at async PlaywrightServer.waitForElementsState (/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:10691:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-12-19T22:31:34.819Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:34.819Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:34.909Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:34.912Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:34.912Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-19.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:34.985Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:34.988Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:34.988Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:34.989Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:34.989Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:34.990Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:34.990Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=4ca024ed-c34d-4996-ad1d-707084148326"}
+{"level":30,"time":"2024-12-19T22:31:34.990Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:34.995Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:34.998Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:34.999Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:34.999Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:35.001Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:35.001Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:35.001Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=4ca024ed-c34d-4996-ad1d-707084148326"}
+{"level":30,"time":"2024-12-19T22:31:35.001Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:35.006Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:35.007Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:35.007Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:35.007Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=4ca024ed-c34d-4996-ad1d-707084148326"}
+{"level":30,"time":"2024-12-19T22:31:35.007Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:35.009Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:35.016Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=d73208e7-cdb2-4720-975f-5f665fd33e57 from context=868360b5-8b43-402d-acc4-65e53c927ffd page stack"}
+{"level":30,"time":"2024-12-19T22:31:35.021Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:35.022Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:35.022Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:35.023Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:35.023Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:35.024Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:35.024Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:35.035Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:35.232Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:35.232Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:35.613Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:35.618Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:35.618Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:35.644Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:35.644Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:35.646Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:35.646Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:35.650Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:35.651Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:35.651Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:35.666Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:35.668Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:35.668Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:35.671Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:35.673Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:35.673Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:35.709Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:35.711Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:35.711Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-20.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:35.799Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:35.801Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:35.801Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:36.087Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:36.093Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.093Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:36.099Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Por favor informe o seu nome completo"}
+{"level":30,"time":"2024-12-19T22:31:36.099Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.102Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.102Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-21.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:36.179Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.181Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.181Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:36.186Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:36.186Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.187Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.187Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:36.198Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.200Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.200Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:36.203Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.205Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.205Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:36.207Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.209Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:36.209Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:36.254Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:36.255Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.255Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-22.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:36.396Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.398Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:36.398Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:36.575Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:36.578Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.578Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:36.583Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Por favor, informe o seu melhor e-mail"}
+{"level":30,"time":"2024-12-19T22:31:36.583Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.585Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.585Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-23.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:36.658Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.661Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.661Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:36.665Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:36.665Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:36.666Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.666Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:36.677Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.679Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.679Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:36.682Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.683Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.683Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:36.687Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:36.688Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:36.688Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:36.714Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:36.716Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.716Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-24.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:36.784Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:36.786Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:36.786Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:37.066Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:37.069Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.069Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:37.077Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Por favor, informe o seu CPF"}
+{"level":30,"time":"2024-12-19T22:31:37.077Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.080Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.081Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-25.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:37.164Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.166Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.166Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:37.171Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:37.171Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.172Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.172Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:37.183Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.184Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.184Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:37.187Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.188Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.189Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:37.191Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.193Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:37.193Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:37.230Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:37.232Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.232Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-26.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:37.301Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.303Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:37.303Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:37.586Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:37.590Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.590Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:37.598Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O email informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:37.598Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.601Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.601Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-27.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:37.679Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.681Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.681Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:37.685Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:37.685Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:37.687Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.687Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:37.698Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.699Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.699Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:37.702Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.704Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.704Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:37.707Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:37.708Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:37.708Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:37.746Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:37.748Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.748Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-28.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:37.814Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:37.815Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:37.815Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:38.099Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:38.104Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:38.104Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:38.111Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O CPF informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:38.111Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:38.114Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:38.114Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-29.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:38.196Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:38.198Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:38.198Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-30.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:38.268Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:38.271Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.271Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.272Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.272Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.273Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:38.273Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=280bdcf1-2574-4828-8871-132e78f705d1"}
+{"level":30,"time":"2024-12-19T22:31:38.273Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.275Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.275Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.276Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.276Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.277Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.277Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.278Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=280bdcf1-2574-4828-8871-132e78f705d1"}
+{"level":30,"time":"2024-12-19T22:31:38.278Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.280Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.280Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.281Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:38.281Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=280bdcf1-2574-4828-8871-132e78f705d1"}
+{"level":30,"time":"2024-12-19T22:31:38.281Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.282Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:38.291Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=1541b6b9-9d8c-4697-a2d5-58be74938869 from context=7ac37be3-fbdc-4b89-8bb2-ff295ea9cbb9 page stack"}
+{"level":30,"time":"2024-12-19T22:31:38.297Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:38.299Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.299Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.304Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.304Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.305Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.305Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.306Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.306Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.308Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:38.308Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:38.312Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:38.496Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:38.497Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.896Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:38.901Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:38.901Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-31.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:38.965Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:38.968Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.968Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.969Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.970Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.971Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:38.971Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=cb68f52e-e52b-4dbe-a06c-9fd4ea89703a"}
+{"level":30,"time":"2024-12-19T22:31:38.971Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.973Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.973Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.974Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.974Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.975Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.975Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.976Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=cb68f52e-e52b-4dbe-a06c-9fd4ea89703a"}
+{"level":30,"time":"2024-12-19T22:31:38.976Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.978Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.979Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.980Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:38.980Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=cb68f52e-e52b-4dbe-a06c-9fd4ea89703a"}
+{"level":30,"time":"2024-12-19T22:31:38.980Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:38.981Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:38.987Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=6ea917dd-4985-4025-89e2-a6c4b3ca95a0 from context=a4facdc5-6f8c-407a-be92-ca15c66b16b5 page stack"}
+{"level":30,"time":"2024-12-19T22:31:38.995Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:38.996Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.996Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:38.998Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.998Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:38.998Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:38.998Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:39.014Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:39.216Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:39.216Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:39.614Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:39.617Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:39.617Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:39.639Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:39.639Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:39.641Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:39.641Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:39.645Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:39.646Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:39.646Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:39.658Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:39.660Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:39.660Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:39.664Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:39.665Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:39.665Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:39.700Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:39.702Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:39.702Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-32.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:39.801Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:39.803Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:39.803Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:40.088Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:40.093Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.093Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:40.100Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Por favor informe o seu nome completo"}
+{"level":30,"time":"2024-12-19T22:31:40.100Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.103Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.103Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-33.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:40.182Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.185Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.185Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:40.189Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:40.189Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.190Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.190Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:40.201Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.202Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.202Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:40.205Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.206Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.207Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:40.210Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.212Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:40.212Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:40.255Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:40.256Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.257Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-34.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:40.317Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.318Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:40.318Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:40.603Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:40.608Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.608Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:40.615Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Por favor, informe o seu melhor e-mail"}
+{"level":30,"time":"2024-12-19T22:31:40.615Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.618Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.618Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-35.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:40.696Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.699Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.699Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:40.704Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:40.704Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:40.705Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.705Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:40.716Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.717Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.717Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:40.721Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.722Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.722Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:40.726Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:40.727Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:40.727Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:40.774Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:40.776Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.776Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-36.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:40.852Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:40.854Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:40.854Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:41.137Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:41.142Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.143Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:41.150Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Por favor, informe o seu CPF"}
+{"level":30,"time":"2024-12-19T22:31:41.150Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.153Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.153Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-37.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:41.223Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.225Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.225Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:41.229Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:41.229Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.230Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.230Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:41.233Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.234Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.234Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:41.246Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.247Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.247Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:41.250Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.252Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:41.252Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:41.280Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:41.282Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.282Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-38.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:41.344Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.346Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:41.346Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:41.630Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:41.634Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.635Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:41.642Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O email informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:41.642Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.645Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.645Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-39.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:41.730Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.732Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.732Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=#signup h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:41.738Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=#signup h2 containing Faça seu cadastro e venha para a Smartbit!"}
+{"level":30,"time":"2024-12-19T22:31:41.738Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:41.739Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.739Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-19T22:31:41.750Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.751Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.751Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-19T22:31:41.754Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.756Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.756Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with id=cpf in page."}
+{"level":30,"time":"2024-12-19T22:31:41.759Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-19T22:31:41.761Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-19T22:31:41.761Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2024-12-19T22:31:41.806Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method click"}
+{"level":30,"time":"2024-12-19T22:31:41.808Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.808Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-40.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:41.884Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:41.886Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:41.886Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:42.170Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-19T22:31:42.176Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:42.176Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=form .notice in page."}
+{"level":30,"time":"2024-12-19T22:31:42.183Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=form .notice containing Oops! O CPF informado é inválido"}
+{"level":30,"time":"2024-12-19T22:31:42.183Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:42.187Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:42.187Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-41.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:42.262Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:42.265Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:42.265Z","pid":30704,"hostname":"Mac.lan","Take screenshot with options: ":{"path":"/Users/francilenesilva/Documents/tester/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-42.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-12-19T22:31:42.333Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-12-19T22:31:42.336Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.337Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.338Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.338Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.339Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:42.339Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=52de9a8d-6e78-4b7e-9045-bc01114cbba9"}
+{"level":30,"time":"2024-12-19T22:31:42.339Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:42.342Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.343Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.343Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:42.344Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:42.344Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:42.345Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:42.345Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=52de9a8d-6e78-4b7e-9045-bc01114cbba9"}
+{"level":30,"time":"2024-12-19T22:31:42.345Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:42.347Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.348Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.349Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:42.349Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=52de9a8d-6e78-4b7e-9045-bc01114cbba9"}
+{"level":30,"time":"2024-12-19T22:31:42.349Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:42.350Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:42.354Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=5a478d43-3615-477d-9a07-a9edd2d5e79b from context=d318a719-8f8b-49a1-be91-aeed119c1eac page stack"}
+{"level":30,"time":"2024-12-19T22:31:42.359Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:42.360Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.360Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.362Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.362Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.363Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.363Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:42.364Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:42.364Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:42.365Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:42.365Z","pid":30704,"hostname":"Mac.lan","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-19T22:31:42.368Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:42.565Z","pid":30704,"hostname":"Mac.lan","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-19T22:31:42.565Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:42.963Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-19T22:31:42.965Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:42.965Z","pid":30704,"hostname":"Mac.lan","msg":"Strict mode is enabled, find Locator with css=.headline h2 in page."}
+{"level":30,"time":"2024-12-19T22:31:42.987Z","pid":30704,"hostname":"Mac.lan","msg":"Retrieved text for element css=.headline h2 containing Sua Jornada Fitness Começa aqui!"}
+{"level":30,"time":"2024-12-19T22:31:42.987Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-19T22:31:47.996Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:47.998Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:47.999Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.001Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.002Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:48.002Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=9b2ecaad-8398-4b12-8c68-c331d0ab000a"}
+{"level":30,"time":"2024-12-19T22:31:48.002Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:48.012Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.017Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.019Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:48.019Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:48.020Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:48.020Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-12-19T22:31:48.021Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=9b2ecaad-8398-4b12-8c68-c331d0ab000a"}
+{"level":30,"time":"2024-12-19T22:31:48.021Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:48.023Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.024Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.025Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active context"}
+{"level":30,"time":"2024-12-19T22:31:48.025Z","pid":30704,"hostname":"Mac.lan","msg":"Changing current active page: page=9b2ecaad-8398-4b12-8c68-c331d0ab000a"}
+{"level":30,"time":"2024-12-19T22:31:48.025Z","pid":30704,"hostname":"Mac.lan","msg":"Changed active page"}
+{"level":30,"time":"2024-12-19T22:31:48.027Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:48.032Z","pid":30704,"hostname":"Mac.lan","msg":"Removed page=870535bf-b9c2-4917-b8c5-03af34bb9c17 from context=c1f908c3-a1f1-45d2-b094-6829c5794d49 page stack"}
+{"level":30,"time":"2024-12-19T22:31:48.037Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-19T22:31:48.039Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.040Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-19T22:31:48.074Z","pid":30704,"hostname":"Mac.lan","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-12-19T22:31:48.159Z","pid":30704,"hostname":"Mac.lan","msg":"End of node method closeAllBrowsers"}
